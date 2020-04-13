@@ -4,8 +4,7 @@
 ```
 yarn install
 yarn serve:admin
-
-see: http://localhost:8080/users/profile
 ```
+see: http://localhost:8080/users/profile
 
 
