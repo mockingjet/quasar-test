@@ -1,19 +1,11 @@
 # quasar-test
 
-## Project setup
+## Test Vue Router Nested Routes
 ```
 yarn install
+yarn serve:admin
+
+see: http://localhost:8080/users/profile
 ```
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
 
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
