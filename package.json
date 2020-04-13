@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build:admin": "vue-cli-service build",
+    "build:index": "vue-cli-service build",
     "serve:admin": "vue-cli-service serve",
     "serve:index": "vue-cli-service serve"
   },
