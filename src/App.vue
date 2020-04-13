@@ -1,10 +1,6 @@
 <template>
   <div id="app">
-    this is admin
-    <transition appear enter-active-class="animated fadeIn" leave-active-class="animated fadeOut">
-      <div v-if="show">test transition</div>
-    </transition>
-    <q-btn @click="show=!show">click</q-btn>
+    this is app
     <router-view></router-view>
   </div>
 </template>
@@ -13,7 +9,5 @@ import Vue from "vue"
 import Component from "vue-class-component";
 
 @Component
-export default class App extends Vue {
-  show = false;
-}
+export default class App extends Vue {}
 </script>

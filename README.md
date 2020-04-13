@@ -3,8 +3,7 @@
 ## Test Vue Router Nested Routes
 ```
 yarn install
-yarn serve:admin
+
+yarn serve
 ```
 see: http://localhost:8080/users/profile
-
-

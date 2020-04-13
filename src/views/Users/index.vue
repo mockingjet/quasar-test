@@ -1,9 +1,9 @@
 <template>
   <div class="user">
     this is user layout
-    <!-- if you "remove" q-btn, you can see user profile below -->
-    <!-- "remove" not "comment it" -->
-    <q-btn>user btn</q-btn>
+    <!-- if you "remove" quasar component(line:8), you can see user profile below -->
+    <!-- else don't use vue class component -->
+    <q-btn>Test</q-btn>    
     <router-view></router-view>
   </div>
 </template>
@@ -13,7 +13,5 @@ import Vue from "vue"
 import Component from "vue-class-component";
 
 @Component
-export default class Users extends Vue {
-  show = false;
-}
+export default class Users extends Vue {}
 </script>

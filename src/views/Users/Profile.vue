@@ -1,13 +1,8 @@
 <template>
-  <div>this is user profile
-    <q-btn>profile btn</q-btn>
-  </div>
+  <div style="font-size:48px">this is user profile</div>
 </template>
 
 <script lang="ts">
-import Vue from "vue"
-import Component from "vue-class-component";
 
-@Component
-export default class Profile extends Vue {}
+export default {}
 </script>

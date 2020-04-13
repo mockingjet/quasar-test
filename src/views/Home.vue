@@ -1,5 +1,8 @@
 <template>
-  <div class="home">home</div>
+  <div class="home">
+    <div>this is home</div>
+    <router-link to="/users/profile">See Profile</router-link>
+  </div>
 </template>
 
 <script>
