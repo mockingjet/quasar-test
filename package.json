@@ -1,0 +1,39 @@
+{
+  "name": "quasar-test",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "serve:admin": "vue-cli-service serve",
+    "serve:index": "vue-cli-service serve"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "core-js": "^3.6.4",
+    "quasar": "^1.0.0",
+    "vue": "^2.6.11",
+    "vue-class-component": "^7.2.3",
+    "vue-property-decorator": "^8.4.1",
+    "vue-router": "^3.1.6",
+    "vuex": "^3.1.3"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.3.0",
+    "@vue/cli-plugin-router": "^4.3.0",
+    "@vue/cli-plugin-typescript": "^4.3.0",
+    "@vue/cli-plugin-vuex": "^4.3.0",
+    "@vue/cli-service": "^4.3.0",
+    "babel-plugin-transform-imports": "1.5.0",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
+    "typescript": "~3.8.3",
+    "vue-cli-plugin-quasar": "^2.0.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
