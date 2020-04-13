@@ -9,10 +9,11 @@
 </template>
 
 <script lang="ts">
-import * as v from "vue-property-decorator";
+import Vue from "vue"
+import Component from "vue-class-component";
 
-@v.Component
-export default class Users extends v.Vue {
+@Component
+export default class Users extends Vue {
   show = false;
 }
 </script>
